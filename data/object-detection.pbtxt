@@ -1,0 +1,29 @@
+item {
+  id: 1
+  name: 'car'
+}
+
+item {
+  id: 2
+  name: 'truck'
+}
+
+item {
+  id: 3
+  name: 'pickup'
+}
+
+item {
+  id: 4
+  name: 'tractor'
+}
+
+item {
+  id: 5
+  name: 'camping car'
+}
+
+item {
+  id: 6
+  name: 'van'
+}

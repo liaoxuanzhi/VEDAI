@@ -1,0 +1,13 @@
+CLASS DESCRIPTION ON XML GENERATION
+1: car
+2:truck
+4:tractor 
+5:camping car 
+7:motorcycle 
+8:bus 
+9:van 
+10:other 
+11:pickup 
+12:large
+23:boat 
+31:plane
