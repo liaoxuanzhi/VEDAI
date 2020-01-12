@@ -26,16 +26,16 @@ def xml_to_csv(path):
                     print("ERORR y_min < 0 in file: {0}".format(xml_file))
                     y_min = 0
                 if int(member[4][0].text) > 1024:
-                    print("ERORR x_min > 256 in file: {0}".format(xml_file))
+                    print("ERORR x_min size in file: {0}".format(xml_file))
                     x_min = 1024
                 if int(member[4][1].text) > 1024:
-                    print("ERORR y_min > 256 in file: {0}".format(xml_file))
+                    print("ERORR y_min size in file: {0}".format(xml_file))
                     y_min = 1024
                 if int(member[4][2].text) > 1024:
-                    print("ERORR x_max > 256 in file: {0}".format(xml_file))
+                    print("ERORR x_max size in file: {0}".format(xml_file))
                     x_max = 1024
                 if int(member[4][3].text) > 1024:
-                    print("ERORR y_max > 256 in file: {0}".format(xml_file))
+                    print("ERORR y_max size in file: {0}".format(xml_file))
                     y_max = 1024
                 value = (root.find('filename').text,
                      int(root.find('size')[0].text),
