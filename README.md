@@ -17,3 +17,4 @@ xml_to_csv_vedai.py converts the XML files to CSV files. please modify the codes
 generate_tfrecord_vedai.py creates the train.record and test.record. files will be recorded in data folder.
 
 Note: once XML files are generated, then take parts into two set (training set and testing set ) and place them to directory: images/train and images/test separately.
+basically refer to :https://github.com/mr8bit/vedai
